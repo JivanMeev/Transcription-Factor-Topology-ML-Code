@@ -41,4 +41,4 @@ cd ..
 5. Evaluate Model and Extract TDA Data
 Note: Open code_for_models/NN.py and change the "name" variable on line 8 to your target organism (e.g., name = "homo_sapiens") before running.
 
-python3 code_for_models/NN.py
+python3 NN.py
