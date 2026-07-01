@@ -12,8 +12,6 @@ Install Python dependencies:
 pip3 install pandas numpy scikit-learn goatools
 
 2. Data Acquisition
-Download the Gene Ontology graph file:
-curl -o go-basic.obo http://current.geneontology.org/ontology/go-basic.obo
 
 Make Directories:
 mkdir data
