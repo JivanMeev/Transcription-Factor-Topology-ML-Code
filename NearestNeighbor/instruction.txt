@@ -30,17 +30,11 @@ python3 dftofasfa.py
 4. Run Local BLAST Alignments
 cd blast
 
-Run the script for your target organism:
-sh blast_methanocaldococcus_jannaschii.sh    # Archaea (~5 mins)
-sh blast_escherichia_coli.sh                 # E. coli (~15-30 mins)
-sh blast_mycobacterium_tuberculosis.sh       # M. Tuberculosis (~15-30 mins)
-sh blast_saccharomyces_cerevisiae.sh         # Yeast (~30-45 mins)
-sh blast_homo_sapiens.sh                     # Human (45+ mins)
+Run the global test script
+sh run_all_downsample_blast
 
 Return to the project root directory:
 cd ..
 
 5. Evaluate Model and Extract TDA Data
-Note: Open code_for_models/NN.py and change the "name" variable on line 8 to your target organism (e.g., name = "homo_sapiens") before running.
-
 python3 NN.py
